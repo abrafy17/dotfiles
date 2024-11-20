@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=683;y=16"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="24"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="26"/>
+        <value type="int" value="3"/>
+        <value type="int" value="16"/>
+        <value type="int" value="27"/>
+        <value type="int" value="5"/>
+        <value type="int" value="1"/>
+        <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.12156862745098039"/>
+        <value type="double" value="0.19215686274509805"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="output-name" type="string" value="Automatic"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=10;x=690;y=743"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="length" type="double" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="28"/>
+        <value type="int" value="2"/>
+        <value type="int" value="19"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (72%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (90%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (73%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (99%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (84%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (94%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (81%)"/>
+        <value type="string" value="onboard"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (76%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (77%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (75%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (100%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (74%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (78%)"/>
+        <value type="string" value="wi-fi network connection “muaaz” active: muaaz (95%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Stremio"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="redshift"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="Free Download Manager"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="Windscribe2"/>
+        <value type="string" value="hp-systray"/>
+        <value type="string" value="firewall-applet"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="known-players" type="string" value="com.github.taiko2k.tauonmb;firefox;Microsoft Edge;vlc;YouTube Music"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-26" type="string" value="whiskermenu">
+      <property name="button-title" type="string" value=""/>
+      <property name="button-icon" type="string" value="/home/rafay/.arch/archlinux-icon.svg"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="484"/>
+      <property name="menu-height" type="int" value="476"/>
+      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-menueditor" type="bool" value="false"/>
+      <property name="show-command-profile" type="bool" value="false"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="reflector-simple.desktop"/>
+        <value type="string" value="xampp-manager.desktop"/>
+        <value type="string" value="youtube-music.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
+        <value type="string" value="simplenote.desktop"/>
+        <value type="string" value="github-desktop.desktop"/>
+        <value type="string" value="org.gnome.Crosswords.desktop"/>
+        <value type="string" value="org.nickvision.tubeconverter.desktop"/>
+        <value type="string" value="com.github.taiko2k.tauonmb.desktop"/>
+        <value type="string" value="steam.desktop"/>
+        <value type="string" value="com.stremio.Stremio.desktop"/>
+        <value type="string" value="org.gnome.Aisleriot.desktop"/>
+        <value type="string" value="com.librumreader.librum.desktop"/>
+        <value type="string" value="nvim.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="nvim.desktop"/>
+        <value type="string" value="dev.bragefuglseth.Keypunch.desktop"/>
+        <value type="string" value="atlauncher.desktop"/>
+        <value type="string" value="net.sourceforge.lgames.LBreakoutHD.desktop"/>
+        <value type="string" value="com.stremio.Stremio.desktop"/>
+        <value type="string" value="com.librumreader.librum.desktop"/>
+        <value type="string" value="org.gnome.Aisleriot.desktop"/>
+        <value type="string" value="io.github.flattool.Warehouse.desktop"/>
+        <value type="string" value="io.github.nokse22.trivia-quiz.desktop"/>
+      </property>
+      <property name="search-actions" type="int" value="7">
+        <property name="action-0" type="empty">
+          <property name="name" type="string" value="Man Pages"/>
+          <property name="pattern" type="string" value="#"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator man %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-1" type="empty">
+          <property name="name" type="string" value="Search the Web"/>
+          <property name="pattern" type="string" value="?"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://duckduckgo.com/?q=%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-2" type="empty">
+          <property name="name" type="string" value="Search for Files"/>
+          <property name="pattern" type="string" value="-"/>
+          <property name="command" type="string" value="catfish --path=~ --start %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-3" type="empty">
+          <property name="name" type="string" value="Wikipedia"/>
+          <property name="pattern" type="string" value="!w"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-4" type="empty">
+          <property name="name" type="string" value="Run in Terminal"/>
+          <property name="pattern" type="string" value="!"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-5" type="empty">
+          <property name="name" type="string" value="Open URI"/>
+          <property name="pattern" type="string" value="^(file|http|https):\/\/(.*)$"/>
+          <property name="command" type="string" value="exo-open \0"/>
+          <property name="regex" type="bool" value="true"/>
+        </property>
+        <property name="action-6" type="empty">
+          <property name="name" type="string" value="EndeavourOS Forum"/>
+          <property name="pattern" type="string" value="forum"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://forum.endeavouros.com"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+      </property>
+      <property name="button-single-row" type="bool" value="false"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="category-show-name" type="bool" value="true"/>
+    </property>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-1" type="string" value="netload"/>
+    <property name="plugin-4" type="string" value="separator"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 11"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+    </property>
+    <property name="plugin-19" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="پنڈی گھیب, تحصیل پنڈی گھیب"/>
+        <property name="latitude" type="string" value="33.241470"/>
+        <property name="longitude" type="string" value="72.271379"/>
+      </property>
+      <property name="msl" type="int" value="329"/>
+      <property name="timezone" type="string" value="Asia/Karachi"/>
+      <property name="offset" type="string" value="+05:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="2"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid-dark"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="false"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.0"/>
+        <property name="background-color" type="string" value="GTK+"/>
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+        <property name="font-description" type="string" value="Sans 12"/>
+      </property>
+    </property>
+    <property name="plugin-27" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+    </property>
+    <property name="plugin-28" type="string" value="docklike"/>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17321144281.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>

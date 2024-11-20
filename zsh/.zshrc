@@ -116,3 +116,4 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 neofetch --ascii ~/.config/neofetch/art/cat.txt --colors 4 7 4 4 7 7
 # neofetch --ascii ~/.config/neofetch/art/space.png --colors 4 7 4 4 7 7
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

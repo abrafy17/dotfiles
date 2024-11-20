@@ -1,0 +1,13 @@
+[user]
+pinned=thunar;firefox;code;xfce4-terminal;simplenote;github-desktop;com.librumreader.librum;
+keyComboActive=true
+forceIconSize=false
+middleButtonBehavior=1
+showWindowCount=true
+onlyDisplayScreen=false
+onlyDisplayVisible=true
+noWindowsListIfSingle=true
+indicatorColorFromTheme=true
+indicatorStyle=2
+inactiveIndicatorStyle=1
+indicatorOrientation=1
